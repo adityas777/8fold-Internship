@@ -1,18 +1,22 @@
 import jsonschema
 from typing import Dict, Any, List, Optional
 
-def get_json_type(field_type: str) -> str:
+def get_json_type(field_type: str, nullable: bool = False) -> Any:
+    base_type = "string"
     if field_type == "string":
-        return "string"
+        base_type = "string"
     elif field_type == "number":
-        return "number"
+        base_type = "number"
     elif field_type == "integer":
-        return "integer"
+        base_type = "integer"
     elif field_type == "boolean":
-        return "boolean"
+        base_type = "boolean"
     elif field_type == "array":
-        return "array"
-    return "string"
+        base_type = "array"
+    
+    if nullable:
+        return [base_type, "null"]
+    return base_type
 
 def build_schema_from_config(config: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -24,8 +28,9 @@ def build_schema_from_config(config: Dict[str, Any]) -> Dict[str, Any]:
 
     for field in config.get("fields", []):
         path = field.get("path")
-        f_type = get_json_type(field.get("type", "string"))
         req = field.get("required", False)
+        nullable = (field.get("on_missing") == "null") and not req
+        f_type = get_json_type(field.get("type", "string"), nullable=nullable)
 
         if not path:
             continue
