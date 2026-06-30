@@ -3,6 +3,9 @@
 ## What this is
 This project is an end-to-end recruitment candidate profile processing engine. It ingests candidate data from both structured and unstructured sources, normalizes contact/location/skill fields, resolves duplicate identities across sources using fuzzy string comparison, and projects the final unified profiles into custom schema formats defined by dynamic runtime configuration files.
 
+## Video Explanation
+https://drive.google.com/file/d/1oacQqG2Vk7WcAFFW7QM8m1Drkmw15wMU/view?usp=sharing
+
 ## Architecture
 The processing pipeline follows a deterministic and traceable sequence:
 1. **detect**: Identifies the source type from file extensions, URL patterns, or content structures.
