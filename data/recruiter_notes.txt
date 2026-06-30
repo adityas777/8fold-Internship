@@ -1,0 +1,5 @@
+Recruiter Notes:
+Candidate Jane Doe (jane.doe@example.com) seemed very strong during the call.
+She has about 6.5 years of experience in total, mostly at Google and Amazon.
+Her skills include Python, React, and SQL. Currently located in Mumbai.
+Would be a great fit for the senior backend developer position.

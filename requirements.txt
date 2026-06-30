@@ -1,0 +1,9 @@
+pydantic>=2.0.0
+phonenumbers
+python-dateutil
+pdfplumber
+python-docx
+requests
+pytest
+jsonschema
+reportlab

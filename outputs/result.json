@@ -1,0 +1,346 @@
+[
+  {
+    "candidate_id": "cand_0_jane.doe",
+    "full_name": "JANE DOE",
+    "emails": [
+      "jane.doe@example.com"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "location": "Mumbai, India",
+    "years_experience": 6.5,
+    "skills": [
+      {
+        "name": "Python",
+        "confidence": 0.6,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "Django",
+        "confidence": 0.6,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "FastAPI",
+        "confidence": 0.6,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "React",
+        "confidence": 0.6,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "SQL",
+        "confidence": 0.6,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.6,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.6,
+        "sources": [
+          "resume"
+        ]
+      },
+      {
+        "name": "Git",
+        "confidence": 0.6,
+        "sources": [
+          "resume"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Google",
+        "title": "Software Engineer",
+        "start_date": "2022-03",
+        "end_date": null,
+        "description": "Google, Mumbai, India \nMarch 2022 to Present \nLeading development of core distributed service features. Restructured API services to improve latency by \n20%. mentored junior developers. \nSoftware Engineer"
+      },
+      {
+        "company": "Amazon",
+        "title": "Software Engineer",
+        "start_date": "2020-01",
+        "end_date": "2022-02",
+        "description": "Amazon, Bangalore, India \nJanuary 2020 to February 2022 \nBuilt scalable data pipelines and backend web applications using Python and Django. Worked closely with \nproduct teams to design robust API services."
+      }
+    ],
+    "overall_confidence": 0.65,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "resume",
+        "method": "regex_heuristics",
+        "value": "JANE DOE"
+      },
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Jane Doe"
+      },
+      {
+        "field": "full_name",
+        "source": "recruiter_notes",
+        "method": "regex_notes",
+        "value": "Jane Doe"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Mumbai, India"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_notes",
+        "method": "regex_notes",
+        "value": "Mumbai"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Senior Software Engineer"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Google"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_notes",
+        "method": "regex_notes",
+        "value": "6.5"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_notes",
+        "method": "regex_notes",
+        "value": "jane.doe@example.com"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "+919876543210"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex_heuristics",
+        "value": "Python"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex_heuristics",
+        "value": "Django"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex_heuristics",
+        "value": "FastAPI"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex_heuristics",
+        "value": "React"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex_heuristics",
+        "value": "SQL"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex_heuristics",
+        "value": "Docker"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex_heuristics",
+        "value": "Kubernetes"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex_heuristics",
+        "value": "Git"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "regex_heuristics",
+        "value": "Google"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "regex_heuristics",
+        "value": "Amazon"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Google"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "regex_heuristics",
+        "value": "Indian Institute of Technology Bombay, Mumbai, India"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_1_bob.smith",
+    "full_name": "Bob Smith",
+    "emails": [
+      "bob.smith@example.com"
+    ],
+    "location": "Seattle, USA",
+    "years_experience": null,
+    "experience": [
+      {
+        "company": "Microsoft",
+        "title": "Software Engineer",
+        "start_date": null,
+        "end_date": null,
+        "description": "Imported from Recruiter CSV"
+      }
+    ],
+    "overall_confidence": 0.9,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Bob Smith"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Seattle, USA"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Software Engineer"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Microsoft"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "bob.smith@example.com"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Microsoft"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_2_alice.j",
+    "full_name": "Alice Johnson",
+    "emails": [
+      "alice.j@example.com"
+    ],
+    "phones": [
+      "+14155552671"
+    ],
+    "location": "San Francisco",
+    "years_experience": null,
+    "experience": [
+      {
+        "company": "Meta",
+        "title": "Product Manager",
+        "start_date": null,
+        "end_date": null,
+        "description": "Imported from Recruiter CSV"
+      }
+    ],
+    "overall_confidence": 0.9,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Alice Johnson"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "San Francisco"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Product Manager"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Meta"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "alice.j@example.com"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "+14155552671"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "csv_reader",
+        "value": "Meta"
+      }
+    ]
+  }
+]
